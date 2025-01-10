@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krunal Ambarte's Portfolio</h1>
+    </header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hello! I am a Full Stack Developer with expertise in creating modern and responsive web applications. Here you can find my resume and certificates.</p>
+
+        <h2>Resume</h2>
+        <a href="resume.pdf" class="button" download>Download My Resume</a>
+
+        <h2>Certificates</h2>
+        <ul>
+            <li><a href="certificate1.pdf" class="button" download>Certificate 1</a></li>
+            <li><a href="certificate2.pdf" class="button" download>Certificate 2</a></li>
+            <li><a href="certificate3.pdf" class="button" download>Certificate 3</a></li>
+        </ul>
+    </div>
+</body>
+</html>
